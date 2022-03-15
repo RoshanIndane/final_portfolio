@@ -32,7 +32,7 @@ const Contact = () => {
 						<i className='fas fa-phone-alt' />
 					</a>
 					<a
-						href='mailto: roshanindane@gmail.com'
+						href='mailto: roshanindane7@gmail.com'
 						aria-label='email'
 						target='_blank'
 						rel='noreferrer'
