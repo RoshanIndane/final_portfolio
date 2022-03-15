@@ -13,7 +13,7 @@ const SideIcons = () => {
 				<div className={styles.rightEmail}>
 					<li>
 						<a
-							href='https://www.linkedin.com/in/pushpendra-pandey-b94838140/'
+							href='https://www.linkedin.com/in/roshanindane/'
 							aria-label='Linkedin'
 							target='_blank'
 							rel='noreferrer'
@@ -37,7 +37,7 @@ const SideIcons = () => {
 					</li>
 					<li>
 						<a
-							href='https://github.com/pandeypushpendra3'
+							href='https://github.com/RoshanIndane'
 							aria-label='GitHub'
 							rel='noreferrer'
 							target='_blank'
@@ -57,9 +57,9 @@ const SideIcons = () => {
 							</svg>
 						</a>
 					</li>
-					{/* <li>
+					<li>
 						<a
-							href='https://www.instagram.com/mr_artist_hrd/'
+							href='https://instagram.com/roshanjain_17?utm_medium=copy_link'
 							aria-label='Instagram'
 							target='_blank'
 							rel='noreferrer'
@@ -87,8 +87,8 @@ const SideIcons = () => {
 								<line x1='17.5' y1='6.5' x2='17.51' y2='6.5' />
 							</svg>
 						</a>
-					</li> */}
-					{/* <li>
+					</li>
+					<li>
 						<a
 							href='https://twitter.com/Niteshkumargos1'
 							aria-label='Twitter'
@@ -96,7 +96,7 @@ const SideIcons = () => {
 							rel='noreferrer'
 						>
 							<svg
-								xmlns='http://www.w3.org/2000/svg'
+								xmlns='https://th.bing.com/th/id/OIP.lGhkP-NBxbfG6xHWOk4twAHaHa?w=161&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7'
 								role='img'
 								viewBox='0 0 24 24'
 								fill='none'
@@ -109,7 +109,7 @@ const SideIcons = () => {
 								<path d='M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z' />
 							</svg>
 						</a>
-					</li> */}
+					</li>
 				</div>
 			</div>
 		</div>

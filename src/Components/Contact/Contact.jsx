@@ -57,7 +57,7 @@ const Contact = () => {
 					</a>
 
 					<a
-						href='https://www.linkedin.com/in/pushpendra-pandey32/'
+						href='https://www.linkedin.com/in/roshanindane/'
 						aria-label='Linkedin'
 						target='_blank'
 						rel='noreferrer'
@@ -74,7 +74,7 @@ const Contact = () => {
 				style={{ color: `${newTheme.para}` }}
 				className={styles.copyright}
 			>
-				Designed and build by Roshan Indane, 2021 All rights
+				Designed and build by Roshan Indane, 2022 All rights
 				reserved.
 			</div>
 		</footer>

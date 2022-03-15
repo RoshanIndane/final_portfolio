@@ -11,7 +11,7 @@ import About from '../About/About';
 import { projects } from '../../Utils/Projects';
 import Contact from '../Contact/Contact';
 import { ThemeContext } from '../../ContextProvider/ThemeContext';
-import Experiences from '../Experiences/Experiences';
+//import Experiences from '../Experiences/Experiences';
 
 const Home = ({ scrollRef }) => {
 	const [projectArray, setProjectArray] = useState(
@@ -75,7 +75,7 @@ const Home = ({ scrollRef }) => {
 							className={styles.name}
 							style={{ color: `${newTheme.title}` }}
 						>
-							Pushpendra 
+							Roshan 
 						</div>
 					</h1>
 					<h1>
@@ -84,7 +84,7 @@ const Home = ({ scrollRef }) => {
 					</h1>
 					<div className={styles.btn}>
 						<a
-							href='https://drive.google.com/file/d/1Ss2m7QGxHhqwG0MTx-JYU3LfFExKTIkA/view?usp=sharing' // Resume
+							href='https://drive.google.com/file/d/1I_plt4HKrgs-BA92OVOKyTC2cZWqwo83/view?usp=sharing' // Resume
 							target='blank'
 						>
 							<Button
@@ -110,7 +110,7 @@ const Home = ({ scrollRef }) => {
 					className={styles.profileImage}
 				>
 					<img
-						src='https://avatars.githubusercontent.com/u/86410106?v=4' //my Picture
+						src='https://media-exp1.licdn.com/dms/image/C4E03AQFvgcMpAQAJFg/profile-displayphoto-shrink_800_800/0/1644673225410?e=1652918400&v=beta&t=IK3Lt6j6HL1WvnXgcdFnxX8TFuhAIftQX9nYkFkEY4o' //my Picture
 						alt='Profile pic'
 					/>
 				</div>
@@ -130,7 +130,7 @@ const Home = ({ scrollRef }) => {
 				<TechStacks />
 			</div>
 
-			<div
+			{/* <div
 				id='experience'
 				className={styles.experience}
 				style={{
@@ -146,7 +146,7 @@ const Home = ({ scrollRef }) => {
 				>
 					<Experiences />
 				</div>
-			</div>
+			</div> */}
 
 			{/* project section from here => */}
 			<div id='projects' className={styles.projects}>
@@ -162,14 +162,14 @@ const Home = ({ scrollRef }) => {
 						<Card key={index} {...item} />
 					))}
 				</div>
-				{/* <Button
+				<Button
 					text={
 						projects.length == 3
 							? 'Show More'
 							: 'Show Less'
 					}
 					handleButton={handleShowMoreBtn}
-				/> */}
+				/>
 			</div>
                  <div
 				style={{
