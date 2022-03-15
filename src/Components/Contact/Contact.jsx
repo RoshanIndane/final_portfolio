@@ -74,8 +74,7 @@ const Contact = () => {
 				style={{ color: `${newTheme.para}` }}
 				className={styles.copyright}
 			>
-				Designed and build by Roshan Indane, 2022 All rights
-				reserved.
+				Designed and build by Roshan Indane!
 			</div>
 		</footer>
 	);
