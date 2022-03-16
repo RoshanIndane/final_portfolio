@@ -24,7 +24,7 @@ const Contact = () => {
 					className={styles.contactOptions}
 				>
 					<a
-						href='tel:8421163964'
+						href='https://api.whatsapp.com/send/?phone=8421163964&text&app_absent=0'
 						aria-label='GitHub'
 						rel='noreferrer'
 						target='_blank'
